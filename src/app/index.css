@@ -1,14 +1,42 @@
 :root {
-  --primary: #0d0714;
-  --secondary: #15101c;
-  --third: #777777;
-  --accent: #9e78cf;
-  --accent-secondary: #fff;
-  --accent-tertiary: #3e1671;
-  --success: #78cfb0;
+  /* Color styles */
+  --primary---navy: rgba(9, 44, 76, 1);
+  --primary---blue: rgba(81, 78, 243, 1);
+  --primary---blue--light: rgba(236, 236, 254, 1);
+  --primary---green: rgba(45, 200, 168, 1);
+  --primary---yellow: rgba(255, 195, 87, 1);
+  --primary---pink: rgba(254, 128, 132, 1);
+  --primary---white: rgba(255, 255, 255, 1);
+  --black---black: rgba(0, 0, 0, 1);
+  --black---black-50: rgba(0, 0, 0, 0.5);
+  --grey---grey-90: rgba(82, 100, 119, 1);
+  --grey---grey-70: rgba(126, 146, 162, 1);
+  --grey-----grey-50: rgba(214, 225, 230, 1);
+  --grey---grey-30: rgba(234, 238, 244, 1);
+  --grey---grey-20: rgba(238, 246, 251, 1);
+  --grey---grey-10: rgba(246, 250, 253, 1);
 
-  --rounded-sm: 5px;
-  --rounded-bs: 10px;
+  /* Text-size styles */
+  /* base size: body---regular (16px) */
+  --heading---h1---bold: 2.25rem;
+  --heading---h2---bold: 1.75rem;
+  --heading---h3---bold: 1.5rem;
+  --heading---h4---regular: 1.25rem;
+  --heading---h4---bold: 1.25rem;
+  --heading---h5---medium: 1.12rem;
+  --heading---h5---bold: 1.12rem;
+  --body---regular: 1rem;
+  --body---medium: 1rem;
+  --body---bold: 1rem;
+  --body---bold-27: 1rem;
+  --small---regular-27: 0.88rem;
+  --small---regular: 0.88rem;
+  --small---medium-27: 0.88rem;
+  --small---medium: 0.88rem;
+  --small---bold-27: 0.88rem;
+  --small---bold: 0.88rem;
+  --extra--small---medium: 0.75rem;
+  --extra--small---bold: 0.75rem;
 }
 
 *,
@@ -40,7 +68,7 @@ button {
   padding: 0;
 }
 
-p {
+p[class] {
   margin: 0;
 }
 
